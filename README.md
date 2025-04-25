@@ -1,11 +1,21 @@
-DealsHunter is a Telegram bot that helps users discover exclusive deals, discounts, and cashback offers from major online retailers, including AliExpress, Amazon, and other global marketplaces.
+# DealsHunterBot
 
-🔹 How It Works:
+Telegram bot that helps users find the best deals from online stores.
 
-    Users select their preferred shopping categories (Tech, Fashion, Home, etc.).
+## Technologies Used
+- Python
+- Telegram bot library
+- Firebase, take into account that you should connect your Firebase credentials to credentials.py file.
+- Stripe #Consider first adding your test environment keys from Stripe
 
-    The bot fetches and shares real-time deals from AliExpress with affiliate links.
+## Features
+✔️ Scrapes and filters top deals  
+✔️ Sends automatic notifications to users  
+✔️ Admin panel for updating deals
 
-    Users receive personalized notifications for flash sales and price drops.
+## How to Run
+- Install required libraries from requirements.txt
+- Run `python bot.py`
+- Connect your Telegram Bot API token
 
-    Premium users get early access to special offers and coupon stacking.
+
